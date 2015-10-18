@@ -1,0 +1,259 @@
+.ploc_content {
+    background-color: rgba(0,0,0,.30);
+    margin: 5px;
+    display: inline-table;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ccc;
+}
+ploc_content a {
+    color: #ccc;
+}
+.like {
+    background-color: #ccc;
+    padding: 2px 6px 2px 6px;
+    color: #333;
+}
+.post {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 200px; 
+    height: 20px;
+    background-color: rgba(0,0,0,.30);
+    font-size: 14px;
+    color: #ccc;
+    border: none;
+    padding: 4px 4px 4px 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#post_field {
+    background-color: rgba(0,0,0,.30);
+    font-size: 14px;
+    color: #ccc;
+    border: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 200px;
+    padding: 4px 4px 4px 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    resize: none;
+    display: none;
+}
+#commentfield {
+    width:380px; 
+    height:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin: 0 auto;
+}
+#update_button {
+    color:#333;
+    font-size:13px;
+    margin-left: 30px;
+}
+#cancel {
+    color:#333;
+    font-size:13px;
+    margin-left:10px;
+}
+.stbody {
+    overflow: auto;
+}
+.stimg {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: solid 1px #dedede;
+    padding: 3px;
+}
+.sttext {
+    margin-left: 50px;
+    min-height: 50px;
+    overflow: hidden;
+    padding: 5px;
+    display: block;
+    font-size: 12px;
+    width: 430px;
+}
+.sttext b {
+    color: #ccc;
+}
+.sttime {
+    font-size: 11px;
+    color: #ccc;
+    margin-top: 5px;
+}
+.sttime .commentopen {
+    color: #ccc;
+}
+.stdelete  {
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+#stexpandbox {
+    margin-top: 10px;
+    display: block;
+    width: 450px;
+}
+#stexpandbox img {
+    border: solid 1px #dedede;
+    padding: 3px;
+}
+.stexpand {
+    display: block;
+    width: 450px;
+}
+/* Comment */
+.stcommentbody {
+    padding: 5px;
+    width: 570px;
+    overflow: auto;
+}
+.stcommentimg{
+    float: left;
+    height: 35px;
+    width: 35px;
+    border: solid 1px #dedede;
+    padding: 2px;
+}
+.stcommenttext {
+    margin-left: 45px;
+    min-height: 40px;
+    overflow: hidden;
+    padding: 3px;
+    display: block;
+    font-size: 11px;
+    width: 395px;
+}
+.stcommenttext b {
+    color: #ccc;
+}
+.stcommenttime {
+    font-size: 11px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.stcommentdelete  {
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+.commentupdate {
+    width: 450px;
+    padding: 5px;
+}
+.comment {
+    width: 375px;
+    height: 15px;
+    font-size: 11px;
+}
+.small_face {
+    width: 35px;
+    height: 35px
+}
+.big_face {
+    width: 40px;
+    height: 40px
+}
+#flashmessage {
+    height: 15px;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #ccc;
+}
+.imgcommentbody {
+    padding: 5px;
+    width: 270px;
+    overflow: auto;
+    float: bottom;
+    color: #ccc;
+}
+.imgcommentimg{
+    float: left;
+    height: 35px;
+    width: 35px;
+    border: solid 1px #dedede;
+    padding: 2px;
+}
+.imgcommenttext {
+    margin-left: 45px;
+    min-height: 40px;
+    overflow: hidden;
+    padding: 3px;
+    display: block;
+    font-size: 11px;
+    width: 215px;
+}
+.imgcommenttext b {
+    color: #ccc;
+}
+.imgcommenttime {
+    font-size: 11px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.imgcommentdelete  {
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+.imgcommentupdate {
+    width: 270px;
+    padding: 5px;
+}
+.SpodeliBox {
+    display: none; 
+    width:680px; 
+    height:490px; 
+    background-color: #000; 
+    position: fixed;
+    top: 100px;
+    left: 300px;
+    margin: 0px auto; 
+    z-index: 2000; 
+    padding: 20px; 
+    color: #FFF;
+}
+.group_content {
+    background-color: #FFFFFF;
+    margin: 5px;
+    width: 220px;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 1px;
+    border: 1px solid #DEDEDE;
+    margin-top: 40px;
+}
+.group_image {
+    display: block;
+    position: static;
+    border: 1px solid #ccc;
+    padding: 1px;
+    max-height: 70px;
+    max-width: 70px;
+    margin-top: -40px;
+}
+.group_image img{
+    width: 70px;
+    height: 70px;
+}
+.group_text {
+    min-height: 50px;
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+    width: 220px;
+}
+.group_name {
+    font-size: 17px;
+    color: #ccc;
+}

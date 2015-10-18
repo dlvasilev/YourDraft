@@ -1,0 +1,248 @@
+#ProfileMenu {
+    text-transform: uppercase;
+    border-top: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    text-align: center;
+}
+#ProfileMenu a {
+    color: #ccc;
+    font-size: 10px;
+}
+#ProfileMenu a:hover{
+    color: #f4f4f4;
+}
+.ProfileMenu_Img img {
+    margin-top: 5px;
+}
+.ProfileMenu_Num {
+    padding-top: 5px;
+    font-size: 20px;
+    height: 25px;
+}
+.ProfileMenu_Link a {
+    font-size: 10px;
+    text-align: center;
+}
+#ProfileMenu_Friends {
+    width: 70px;
+    height: 50px;
+    border-right: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_CV {
+    width: 70px;
+    height: 50px;
+    border-right: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_Groups{
+    width: 70px;
+    height: 50px;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_Projects{
+    width: 70px;
+    height: 50px;
+    border-right: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_Gallery{
+    width: 70px;
+    height: 50px;
+    border-right: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_Info{
+    width: 70px;
+    height: 50px;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_RemoveFR {
+    width: 105px;
+    height: 40px;
+    border-right: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_AddFR {
+    width: 105px;
+    height: 40px;
+    border-right: 1px rgba(0,0,0,.10) solid;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileMenu_SendMSG {
+    width: 105px;
+    height: 40px;
+    border-bottom: 1px rgba(0,0,0,.10) solid;
+    display: inline-block;
+}
+#ProfileHead_Box {
+    width: 520px;
+    background: rgba(0,0,0,.30);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#ProfileHead_Box_Avatar {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: rgba(0,0,0,.50);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#ProfileHead_Box_Avatar img{
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#ProfileHead_Box_Info {
+    text-align: center;
+    font-size: 12px;
+}
+#ProfileHead_Box_Info_Name {
+    font-size: 25px;
+}
+#ProfileHead_Box_Info_UserName {
+    font-size: 20px;
+}
+.ProfileGallery_Photo {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.30);
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+.ProfileGallery_Photo img{
+    width: 100px;
+    height: 100px;
+}
+.ProfileFriend_Box {
+    width: 100px;
+    padding-top: 5px;
+    background-color: rgba(0,0,0,.30);
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(0,0,0,.30);
+    margin-bottom: 5px;
+
+}
+
+
+
+
+
+.ProfileGroupContent {
+    background-color: #FFFFFF;
+    margin: 5px;
+    display: inline-table;
+    border-radius: 1px;
+    border: 1px solid #DEDEDE;
+    width: 260px;
+}
+.ProfileGroupImage {
+    height: 50px;
+    width: 50px;
+    padding: 1px;
+    border: 1px #ccc solid;
+    display: block;
+    float: left;
+}
+.ProfileGroupName {
+    font-size: 11px;
+    color: #999;
+    background-color: #777;
+    margin-top: 3px;
+    margin-left: 55px;
+    padding-left: 5px;
+}
+.ProfileGroupText {
+    height: 30px;
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+    width: 200px;
+    float: right;
+}
+
+
+
+
+
+#user_phone {
+    background: url(../images/phone.png) left no-repeat;
+    padding-left: 17px;
+}
+#user_email {
+    background: url(../images/email.png) left no-repeat;
+    padding-left: 17px;
+}
+#user_skype {
+    background: url(../images/skype.png) left no-repeat;
+    padding-left: 17px;
+    margin-bottom: 5px;
+}
+#user_facebook {
+    background: url(../images/facebook.png) left no-repeat;
+    padding-left: 17px;
+    margin-bottom: 5px;
+}
+#user_website {
+    background: url(../images/website.png) left no-repeat;
+    padding-left: 17px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.edit_link {
+    display: none;
+    position: static;
+    float: right;
+    background: url(../images/edit.png) no-repeat;
+    height: 13px;
+    width: 13px;
+    margin-top: -15px;
+}
+.editbox {
+    resize: none;
+    border: none;
+    overflow: hidden;
+    height: 40px;
+    width: 485px;
+    font-size: 12px;
+    padding: 5px;
+    color: #ccc;
+    background-color: rgba(0,0,0,.50);
+}
+#pоst_field {
+    resize: none;
+    width: 500px;
+    height: 40px;
+    color: #ccc;
+    border: none;
+    background-color: rgba(0,0,0,.50);
+}

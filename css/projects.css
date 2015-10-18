@@ -1,0 +1,300 @@
+#projectContent {
+    display: block;
+}
+#projectHead {
+    display: block;
+    width: 900px;
+    margin: 0px auto;
+}
+#projectHeadCol1 {
+    width: 300px;
+    float: left;
+}
+#projectHeadCol2 {
+    width: 580px;
+    float: right;
+}
+#projectHeadImage {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    border: #ccc 1px solid;
+    display: block;
+    margin: 0px auto;
+}
+#projectHeadImage img{
+    width: 100px;
+    height: 100px;
+}
+#projectHeadName {
+    font-size: 30px;
+    padding-left: 30px;
+}
+#projectHeadMenu {
+    margin: 20px auto;
+    width: 250px;
+}
+#projectHeadMenuMembers {
+    float: right;
+    height: 40px;
+    width: 55px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#projectHeadMenuMembers img {
+    padding-left: 15px;
+}
+#projectHeadMenuMembers a {
+    padding-left: 2px;
+}
+#projectHeadMenuAMemb {
+    float: right;
+    height: 40px;
+    width: 55px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#projectHeadMenuAMemb img {
+    padding-left: 15px;
+}
+#projectHeadMenuAMemb a {
+    padding-left: 2px;
+}
+#projectHeadMenuRMemb {
+    float: right;
+    height: 40px;
+    width: 55px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#projectHeadMenuRMemb img {
+    padding-left: 15px;
+}
+#projectHeadMenuRMemb a {
+    padding-left: 2px;
+}
+#projectHeadMenuDirectory {
+    float: right;
+    height: 40px;
+    width: 65px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#projectHeadMenuDirectory img {
+    padding-left: 15px;
+}
+#projectHeadMenuDirectory a {
+    padding-left: 2px;
+}
+#projectHeadMenuInvitations {
+    float: right;
+    height: 40px;
+    width: 65px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#projectHeadMenuInvitations img {
+    padding-left: 15px;
+}
+#projectHeadMenuInvitations a {
+    padding-left: 2px;
+}
+#projectHeadMembersBox {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+#projectHeadMembersHead {
+    width: 250px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadMembersHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectHeadRMembBox {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+#projectHeadRMembHead {
+    width: 250px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadRMembHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectHeadAMembBox {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+#projectHeadAMembHead {
+    width: 250px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadAMembHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectHeadPostsBox {
+    width: 600px;
+    float: right;
+    margin-top: 20px;
+}
+#projectHeadPostsHead {
+    width: 600px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadPostsHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectHeadDirectoryBox {
+    width: 600px;
+    float: right;
+    margin-top: 20px;
+}
+#projectHeadDirectoryHead {
+    width: 600px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadDirectoryHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectHeadUploadHead {
+    margin-top: 80px;
+    width: 600px;
+    height: 30px;
+    background: url(../images/panelbcg.png) #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadUploadHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectHeadInvitationsBox {
+    width: 600px;
+    height: 140px;
+    overflow: auto;
+    float: right;
+    margin-top: 20px;
+}
+#projectHeadInvitationsHead {
+    width: 600px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#projectHeadInvitationsHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#projectDirectoryHead {
+    width: 600px;
+    height: 20px;
+    overflow: auto;
+    float: right;
+    margin-top: 20px;
+}
+#projectDirectoryHeadIcon {
+    width: 50px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+    display: inline-block;
+}
+#projectDirectoryHeadName {
+    width: 335px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+    display: inline-block;
+}
+#projectDirectoryHeadSize {
+    width: 80px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+    display: inline-block;
+}
+#projectDirectoryHeadTime {
+    width: 120px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.projectDirectoryItem {
+    width: 600px;
+    overflow: auto;
+    float: right;
+    max-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+#projectDirectoryItemIcon {
+    width: 50px;
+    border-radius: 1px;
+    display: inline-block;
+}
+#projectDirectoryItemName {
+    width: 335px;
+    border-radius: 1px;
+    display: inline-block;
+}
+#projectDirectoryItemSize {
+    width: 80px;
+    border-radius: 1px;
+    display: inline-block;
+}
+#projectDirectoryItemTime {
+    width: 120px;
+    border-radius: 1px;
+    display: inline-block;
+}

@@ -1,0 +1,195 @@
+/* 
+    Document   : groups
+    Created on : Feb 18, 2013, 10:49:24 PM
+    Author     : Daniel
+    Description: Style of the Groups
+*/
+
+#groupContent {
+    display: block;
+}
+#groupHead {
+    display: block;
+    width: 900px;
+    margin: 0px auto;
+}
+#groupHeadCol1 {
+    width: 300px;
+    float: left;
+}
+#groupHeadCol2 {
+    width: 580px;
+    float: right;
+}
+#groupHeadImage {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    border: #ccc 1px solid;
+    display: block;
+    margin: 0px auto;
+}
+#groupHeadImage img{
+    width: 100px;
+    height: 100px;
+}
+#groupHeadName {
+    font-size: 30px;
+    padding-left: 30px;
+}
+#groupHeadMenu {
+    margin: 20px auto;
+    min-width: 100px;
+    max-height: 250px;
+}
+#groupHeadMenuMembers {
+    float: right;
+    height: 40px;
+    width: 55px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#groupHeadMenuMembers img {
+    padding-left: 15px;
+}
+#groupHeadMenuMembers a {
+    padding-left: 2px;
+}
+#groupHeadMenuAMemb {
+    float: right;
+    height: 40px;
+    width: 55px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#groupHeadMenuAMemb img {
+    padding-left: 15px;
+}
+#groupHeadMenuAMemb a {
+    padding-left: 2px;
+}
+#groupHeadMenuRMemb {
+    float: right;
+    height: 40px;
+    width: 55px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#groupHeadMenuRMemb img {
+    padding-left: 15px;
+}
+#groupHeadMenuRMemb a {
+    padding-left: 2px;
+}
+#groupHeadMenuInvitations {
+    float: right;
+    height: 40px;
+    width: 65px;
+    font-size: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+#groupHeadMenuInvitations img {
+    padding-left: 15px;
+}
+#groupHeadMenuInvitations a {
+    padding-left: 2px;
+}
+#groupHeadMembersBox {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+#groupHeadMembersHead {
+    width: 250px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#groupHeadMembersHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#groupHeadRMembBox {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+#groupHeadRMembHead {
+    width: 250px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#groupHeadRMembHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#groupHeadAMembBox {
+    display: none;
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+#groupHeadAMembHead {
+    width: 250px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#groupHeadAMembHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#groupHeadPostsBox {
+    width: 600px;
+    float: right;
+    margin-top: 20px;
+}
+#groupHeadPostsHead {
+    width: 600px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#groupHeadPostsHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}
+#groupHeadInvitationsBox {
+    width: 600px;
+    height: 140px;
+    overflow: auto;
+    float: right;
+    margin-top: 20px;
+}
+#groupHeadInvitationsHead {
+    width: 600px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1px;
+}
+#groupHeadInvitationsHead p {
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-left: 15px;
+    color: #fff;
+}

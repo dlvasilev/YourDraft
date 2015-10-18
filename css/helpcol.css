@@ -1,0 +1,41 @@
+#maybefr p {
+    margin-left: -5px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+#maybefr a.more {
+    margin-left: 100px;
+    padding: 2px;
+    font-size: 12px;
+    border: #ccc 1px solid;
+}
+.maybefrbody {
+    overflow: auto;
+}
+.maybefrimg {
+    float: left;
+    height: 33px;
+    width: 33px;
+    border: solid 1px #dedede;
+    padding: 3px;
+}
+.maybefrface {
+    width: 33px;
+    height: 33px
+}
+.maybefrtext {
+    min-height: 25px;
+    overflow: hidden;
+    padding: 5px;
+    display: block;
+    font-size: 12px;
+    width: 120px;
+}
+.maybefrtext b {
+    color: #222222;
+}
+.maybefrlikes {
+    font-size: 11px;
+    color: #999;
+    margin-top: 5px;
+}

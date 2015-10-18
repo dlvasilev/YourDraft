@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^user/([a-zA-Z0-9_-]+)$ /yourdraftv4/user/profile.php?username=$1
+RewriteRule ^user/([a-zA-Z0-9_-]+)/$ /yourdraftv4/user/profile.php?username=$1
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+RewriteRule ^register$ /yourdraftv4/register.php
+RewriteRule ^home$ /yourdraftv4/index.php
+RewriteRule ^draftboard$ /yourdraftv4/draftboard.php
+RewriteRule ^groups/$ /yourdraftv4/group/index.php
+RewriteRule ^projects/$ /yourdraftv4/project/index.php
+RewriteRule ^qastages/$ /yourdraftv4/qastage/index.php
+RewriteRule ^adverts/$ /yourdraftv4/adverts/index.php
